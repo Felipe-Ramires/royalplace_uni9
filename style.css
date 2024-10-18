@@ -1,0 +1,70 @@
+body {
+    font-family: "Marcellus", serif;
+    padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+.marcellus-sc-regular {
+    font-family: "Marcellus SC", serif;
+
+}
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.login-icon {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.logo {
+    height: 37.5px;
+    width: 150px;
+}
+.image-header {
+    height: 60vh;
+    background-image: url("img/img_header_reserva.png");
+    background-size: cover;
+}
+.btn-royal {
+    color: #ffffff;
+    background-color: #BA9263;
+    border-color:none;
+}
+.btn-royal:hover {
+    background-color: #a37e57;
+    color: #ffffff;
+
+}
+.search-box {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 14px;
+    position: relative;
+    bottom: 130px;
+}
+
+@media (max-width:720px) {
+    .search-box{
+        bottom: 120px;   
+}
+
+}
+.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-select, .btn-custom {
+    height: 40px; 
+}
+.line {
+    height: 6px;
+    width: 77px;
+    background-color: #BA9263;
+
+}
+.card{
+    border: none;
+}
+p{
+    margin: 0;
+}

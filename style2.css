@@ -47,7 +47,8 @@ body {
 .btn-royal {
     color: #212529;
     background-color: #BA9263;
-    border-color: #BA9263;
+    border-color: none;
+
 }
 
 .line {

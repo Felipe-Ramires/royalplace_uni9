@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="\img\royalicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Royalplace</title>
+</head>
+
+<body>
+    <header class="header mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">
+                    <img class="logo" src="img/LogoRoyal.png" alt="">
+
+                </a>
+                <div class="d-flex align-items-center marcellus-regular">
+                    <a href="#" class="nav-link text-reset">
+                        <i class="fa-regular fa-user"></i> Entrar
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid image-header d-flex align-items-center flex-column justify-content-center">
+            <div class="container text-white">
+                <h1>Reserve sua estadia no Hotel ROYALPLACE</h1>
+                <h6>Escolha entre nossas acomodações elegantes e desfrute de uma experiência inesquecível.</h6>
+
+            </div>
+
+    </header>
+    <article>
+        <div class="container">
+            <div class="search-box bg-white p-4 shadow ">
+                <h2 class="text-start mb-4">Procurar por Quartos</h2>
+                <form class="row g-3 ">
+                    <div class="col-md-4">
+                        <label for="hotel" class="form-label d-block">Hotel</label>
+                        <select class="form-select" id="hotel">
+                            <option selected>Selecione o Hotel</option>
+                            <option>Hotel A</option>
+                            <option>Hotel B</option>
+                            <option>Hotel C</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="room" class="form-label d-block">Quarto</label>
+                        <select class="form-select" id="room">
+                            <option selected>Selecione o Quarto</option>
+                            <option>Quarto Standard</option>
+                            <option>Quarto Deluxe</option>
+                            <option>Suíte</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="guests" class="form-label d-block">Hóspedes</label>
+                        <select class="form-select" id="guests">
+                            <option selected>1 Hóspede</option>
+                            <option>2 Hóspedes</option>
+                            <option>3 Hóspedes</option>
+                            <option>4+ Hóspedes</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 offset-md-8 text-end">
+                        <button type="submit" class="btn btn-royal marcellus-sc-regular px-4">Pesquisar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <h1>Quartos Disponíveis</h1>
+                <div class="line mb-5"></div>
+                <div class="row ">
+
+                    <div class="col-lg-4">
+                        <div class="card shadow"><img src="img/standard1.png" class="card-img-top" alt="">
+                            <div class="card-body px-4">
+                                <h3>Quarto Standard l</h3>                               
+                                <div class="row pt-2">
+
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center pb-3">
+                                            <i class="fa-solid fa-ruler-combined fa-xl" style="color: #000000;"></i>
+                                            <p class="px-3">30m²</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="fa-solid fa-bed fa-lg" style="color: #000000;"></i>
+                                            <p class="px-3">30m²</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center pb-3  flex-row-reverse">
+                                            <i class="fa-solid fa-users fa-lg" style="color: #000000;"></i>
+                                            <p class="px-3">30m²</p>
+                                        </div>
+                                        <div class="d-flex align-items-center pb-3  flex-row-reverse">
+                                            <i class="fa-solid fa-building fa-xl" style="color: #000000;"></i>
+                                            <p class="px-3">30m²</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center pb-3">
+                                            <p>R$600/noite</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex align-items-center pb-3  flex-row-reverse">
+                                            <button type="submit" class="btn btn-royal marcellus-sc-regular px-4">Reserve Agora</button>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="card">
+                            a
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">a
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </article>
+    <script src="https://kit.fontawesome.com/45bcb128b3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
