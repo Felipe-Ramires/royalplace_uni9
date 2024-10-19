@@ -1,0 +1,100 @@
+body {
+    font-family: "Marcellus", serif;
+    padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+.marcellus-sc-regular {
+    font-family: "Marcellus SC", serif;
+
+}
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.login-icon {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.logo {
+    height: 37.5px;
+    width: 150px;
+}
+
+.line {
+    height: 6px;
+    width: 77px;
+    background-color: #BA9263;
+}
+p{
+    margin: 0;
+}
+
+.icon-circle {
+    background-color: #c19a6b;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.divider {
+    height: 60px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+.btn-royal {
+    color: #ffffff;
+    background-color: #BA9263;
+    border-color:none;
+}
+.btn-royal:hover {
+    background-color: #a37e57;
+    color: #ffffff;
+
+}
+.preco{
+    font-size: 21px;
+    font-weight: 500;
+}
+.aside-image{
+    border-radius: 0 100px  0 100px ;
+}
+.carousel{
+    margin: 3rem;
+}
+@media (max-width:1140px) {
+    .carousel{
+        margin: 0 !important;
+    }
+}
+
+.embed-responsive {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.bg-footer {
+    background-color: #BA9263;
+}
