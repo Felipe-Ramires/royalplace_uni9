@@ -63,8 +63,14 @@ body {
 
 }
 .card{
-    border: none;
+    border-radius: 16px !important;
+}
+.img-card{
+    border-radius: 16px 16px 0  0;
 }
 p{
     margin: 0;
+}
+.bg-footer {
+    background-color: #BA9263;
 }
